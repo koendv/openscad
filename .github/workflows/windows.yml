@@ -29,7 +29,7 @@ jobs:
         git submodule update --init --recursive
         mkdir build
         cd build
-        cmake .. -DCMAKE_BUILD_TYPE=Release -DEXPERIMENTAL=ON -DSNAPSHOT=ON
+        cmake .. -DMPFR_LIBRARIES=libmpfr -DCMAKE_BUILD_TYPE=Release -DEXPERIMENTAL=ON -DSNAPSHOT=ON
         mingw32-make.exe -j2
     - name: Run Test Suite
       run: |
