@@ -21,8 +21,6 @@ jobs:
         ENV_SPECIFIC_DISABLE: "|edges_view-options-tests"
       run: |
         ./scripts/macosx-build-homebrew.sh
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
     - name: Build OpenSCAD
       run: |
         mkdir build

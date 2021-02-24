@@ -24,8 +24,6 @@ jobs:
       run: |
         pwd
         ./scripts/msys2-install-dependencies.sh
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
     - name: Build OpenSCAD
       run: |
         git submodule update --init --recursive
