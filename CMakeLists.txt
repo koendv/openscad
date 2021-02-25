@@ -34,10 +34,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Output compilation database (compile_commands.json), so we can e.g. run clang-tidy or other tools separately
 set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
 
-if(WIN32)
-   set(CMAKE_FIND_LIBRARY_SUFFIXES .lib .dll)
-endif()
-
 option(INFO "Display build configuration info at end of cmake config" ON)
 option(EXPERIMENTAL "Enable Experimental Features" OFF)
 option(SNAPSHOT "Create dev snapshot, uses nightly icons" OFF)
