@@ -27,6 +27,8 @@ jobs:
         cd build
         cmake .. -DCMAKE_BUILD_TYPE=Release -DEXPERIMENTAL=ON -DSNAPSHOT=ON
         make -j2
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
     - name: Run Test Suite
       run: |
         cd build/tests
