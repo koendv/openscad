@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>636</width>
+    <width>653</width>
     <height>539</height>
    </rect>
   </property>
@@ -27,7 +27,7 @@
     <item row="0" column="0">
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="page3DView">
        <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -88,6 +88,58 @@
          </layout>
         </item>
         <item>
+         <layout class="QFormLayout" name="formLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>Eye Separation</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSlider" name="horizontalSliderEyeSeparation">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>Out of Screen</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSlider" name="horizontalSliderOutOfScreen">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="tickPosition">
+             <enum>QSlider::NoTicks</enum>
+            </property>
+            <property name="tickInterval">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>Near Clipping Plane</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QSlider" name="horizontalSliderNearClippingPlane">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxShowWarningsIn3dView">
           <property name="text">
            <string>Show Warnings and Errors in 3D View</string>
@@ -135,9 +187,9 @@
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-450</y>
-             <width>602</width>
-             <height>901</height>
+             <y>0</y>
+             <width>590</width>
+             <height>980</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_5">
@@ -1292,8 +1344,8 @@
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>84</width>
-               <height>26</height>
+               <width>100</width>
+               <height>30</height>
               </rect>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_10">
@@ -1615,8 +1667,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>548</width>
-             <height>747</height>
+             <width>640</width>
+             <height>978</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_12">

@@ -1,0 +1,22 @@
+{
+    "name" : "3D Glasses",
+    "index" : 2001,
+    "show-in-gui" : true,
+    "description" : "3d anaglyph",
+    "_comment" : "created by gencolorscheme.py",
+
+    "colors" : {
+        "background" :         "#ffffff",
+        "highlight" :          "#80808080",
+        "axes-color" :         "#ea80ff",
+        "opencsg-face-front" : "#dfff80",
+        "opencsg-face-back" :  "#df80ff",
+        "cgal-face-front" :    "#dfff80",
+        "cgal-face-back" :     "#df80ff",
+        "cgal-face-2d" :       "#bfff80",
+        "cgal-edge-front" :    "#dfff80",
+        "cgal-edge-back" :     "#ea80ff",
+        "cgal-edge-2d" :       "#ca80ff",
+        "crosshair" :          "#754080"
+    }
+}
